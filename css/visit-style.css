@@ -1,0 +1,153 @@
+h1 {
+	font-size: 250%;
+	margin-top: 12%;
+}
+
+.location-image {
+	width: 80%;
+	margin-left: 15%;
+	filter: brightness(50%);
+}
+
+.downtown-img {
+	float: right;
+}
+
+.shadyside-img {
+	float: left;
+	margin-left: -1%;
+}
+.downtown {
+	float: left;
+	width: 45%;
+	height: 60%;
+	margin-top: 0%;
+}
+
+#downtown-icon {
+	position: absolute;
+	top: 39%;
+	margin-left: 21.7%;
+}
+
+#downtown-label {
+	color: #ffffff;
+	position: absolute;
+	top: 51%;
+	margin-left: 21%;
+	font-size: 200%;
+}
+
+.shadyside {
+	float: right;
+	width: 45%;
+	height: 60%;
+	margin-top: 0%;
+}
+
+#shadyside-icon {
+	position: absolute;
+	top: 39%;
+	margin-left: -22.5%;
+}
+
+#shadyside-label {
+	color: #ffffff;
+	position: absolute;
+	top: 51%;
+	margin-left: 12.3%;
+	font-size: 200%;
+}
+
+iframe {
+	margin-top: 15px;
+	border: 0;
+}
+
+/* -------------- Table -------------- */
+.downtown-info {
+	clear: both;
+	float: left;
+	margin-left: 9.3%;
+}
+
+table {
+	border: 1px solid #8D8D8D;
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+tr {
+	height: 40px;
+}
+
+th, td {
+	padding-top: 5px;
+	padding-left: 10px;
+	border: 1px solid #8D8D8D;
+}
+
+.address {
+	font-size: 90%;
+}
+
+table a {
+	color: #00a665;
+}
+
+table a:hover {
+	color: #8D8D8D;
+}
+
+.shadyside-info th {
+	padding-right: 7px;
+}
+
+.shadyside-info {
+	clear: right;
+	float: right;
+	margin-right: 9.3%;
+}
+
+/* -------------- Graph -------------- */
+#downtown-graph {
+	margin-left: -10px;
+	margin-bottom: 15px;
+}
+
+#shadyside-graph {
+	margin-bottom: 15px;
+}
+
+form {
+	width: 75%;
+	margin-left: 12%;
+	font-size: 110%;
+}
+
+form p {
+	font-size: 80%;
+	margin-left: 3%;
+}
+
+.contact-info {
+	float: left;
+	width: 50%;
+	padding-top: 1.5%;
+	padding-left: 3%;
+	padding-bottom: 3%;
+}
+
+.message {
+	float: right;
+	padding-top: 1%;
+	padding-right: 3%;
+}
+
+.update {
+	clear: both;
+	margin-left: 3%;
+	margin-top: -2%;
+}
